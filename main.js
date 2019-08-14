@@ -12,13 +12,13 @@ $button.addEventListener('click', (e) => {
         block1.style.display = 'none'
         happy.style.display = 'none'
         change = false
-        feeling.textContent = 'sad'
+        feeling.textContent = '郑昌硕'
     } else {
         block2.style.display = 'none'
         sad.style.display = 'none'
         block1.style.display = 'block'
         happy.style.display = 'block'
-        feeling.textContent = 'happy'
+        feeling.textContent = '刘泽佳'
         change = true
     }
 })
