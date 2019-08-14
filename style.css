@@ -1,0 +1,114 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#wushounan{
+    border: 1px red solid;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border-radius: 50%;
+    background-color: yellow;
+    overflow: hidden;
+    left: 200px;
+}
+
+#wushounan>div:first-child{
+
+    position: absolute;
+    height: 125px;
+    width: 100px;
+    border: 1px red solid;
+    border-radius:50%;
+    background-color: white;
+    top: 75px;
+    left: 75px;
+    z-index: 2;
+    
+}
+
+#wushounan>div:nth-child(2){
+
+    position: absolute;
+    height: 125px;
+    width: 100px;
+    border: 1px red solid;
+    border-radius:50%;
+    background-color: white;
+    top: 75px;
+    right: 75px;
+    z-index: 2;
+}
+
+.eye1{
+    border:1px red solid;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    bottom: 0px;
+    left:12.5px;
+    z-index: 1;
+}
+.eye2{
+    border:1px red solid;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    bottom: 0px;
+    left:12.5px;
+    z-index: 1; 
+}
+
+#happy{
+    border: 2px brown solid;
+    height: 250px;
+    width: 300px;
+    border-radius: 60%;
+    position:absolute;
+    bottom: 75px;
+    left: 50px; 
+    display: block
+}
+
+#block1{
+    height:175px;
+    width: 300px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 150px;
+    left: 50px; 
+    display: block
+}
+
+#sad{
+    border: 2px brown solid;
+    height: 250px;
+    width: 300px;
+    border-radius: 60%;
+    position:absolute;
+    bottom: -100px;
+    left: 50px;
+    display: none  
+}
+
+#block2{
+    height:175px;
+    width: 300px;
+    background-color: yellow;
+    position: absolute;
+    bottom: -80px;
+    left: 50px;
+    display: none
+   
+}
+#feeling{
+    height: 50px;
+    width: 100px;
+    position:absolute;
+top: 175px
+}
